@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ede7f6;
+    overflow-x: hidden;
+}
+
+
+
+.inner-container form{
+    margin: 0px auto;
+    
+    width: 60%;
+    min-height:100vh ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+input{
+
+    background: transparent;
+}
+
+.question-divs{
+width: 80%;
+    min-height: 100px;
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+.PartyMoto p{
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.para{
+    color: rgb(202, 51, 51);
+    font-size: 15px;
+}
+.question-divs h4{
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Google Sans', 'Roboto', Helvetica, Arial, sans-serif;
+}
+.nameing input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ede7f6;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.attend h4 span{
+    color: red;
+}
+input::placeholder{
+    font-size: 14px;
+}
+.att p{
+    font-size:18px;
+    display:inline-block;
+    margin: 20px 0px 10px 0px;
+    
+    
+}
+.attend input{
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 18px;
+    height: 18px;
+    
+}
+.howmany input{
+
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ede7f6;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.bring p{
+    margin-top: 5px;
+    
+}
+.checkbo{
+    margin-top: 15px;
+
+}
+.checkbo div{
+    margin-top: 10px;
+}
+.checkbo div label{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.checkbo div input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ede7f6;
+
+    font-size: 20px;
+}
+.submit input{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+    outline: none;
+    color: white;
+    margin: 20px 0px 30px 0px;
+    border: none;
+    border-radius:10px;
+}
+.submit input:hover{
+    background-color: rgb(115, 74, 153);
+}
+.submit input:active{
+    background-color: rgb(110, 47, 168);
+}
+input[type=text]:focus{
+    border-bottom: 1px solid rgb(29, 18, 223);
+    transition: 1s;
+}
+input:focus{
+    border-bottom: 1px solid rgb(29, 18, 223);
+    
+    transition: 1s;
+}
+
+@media screen and (max-width: 800px)  {
+    .inner-container form{
+        width: 90%;
+    }
+    .question-divs{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 400px)  {
+    
+    input[type=text], input[type=gmail]{
+        width: 80px;
+    }
+    
+}
